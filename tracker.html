@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IdolVault | My Binder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">♡ IdolVault</div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="market.html">The Shop</a>
+        <a href="tracker.html" class="active">My Binder</a>
+        <a href="about.html">Profile</a>
+    </nav>
+
+    <div class="nav-icons">
+        <span>♡</span>
+        <span>🛒</span>
+    </div>
+</header>
+
+
+<main>
+
+    <section class="page-header">
+        <span class="eyebrow">✦ COLLECTION MANAGER ✦</span>
+        <h1>My <span>Binder</span></h1>
+        <p>
+            Keep track of the photocards you own,
+            want, and have up for trade.
+        </p>
+    </section>
+
+
+    <!-- COLLECTION SUMMARY -->
+    <section class="collection-summary">
+
+        <div>
+            <small>COLLECTION PROGRESS</small>
+            <h2>Your Sky Photocard Set</h2>
+
+            <div class="large-progress">
+                <div style="width:78%"></div>
+            </div>
+
+            <p>
+                <strong>78%</strong> complete —
+                14 of 18 cards collected
+            </p>
+        </div>
+
+        <div class="collection-number">
+            <strong>14/18</strong>
+            <span>Cards Owned</span>
+        </div>
+
+    </section>
+
+
+    <!-- FILTER -->
+    <div class="binder-toolbar">
+
+        <div class="filter-buttons">
+            <button class="filter active-filter">All</button>
+            <button class="filter">Own</button>
+            <button class="filter">Want</button>
+            <button class="filter">UFT</button>
+        </div>
+
+        <select>
+            <option>Your Sky — DMD ACTORS</option>
+            <option>Duang With You — DMD ACTSORS</option>
+            <option>Friend Benefit — DMD ACTORS</option>
+        </select>
+
+    </div>
+
+
+    <!-- BINDER -->
+    <section class="binder">
+
+        <div class="binder-title">
+            <span>PAGE 01</span>
+            <h2>Butter — Photocard Set</h2>
+        </div>
+
+        <div class="binder-grid">
+
+            <article class="photo-card own">
+                <div class="photo-placeholder purple-bg">
+                    🧑🏻‍🎤
+                </div>
+                <h3>Teetee #01</h3>
+                <span class="status own-status">OWN</span>
+            </article>
+
+
+            <article class="photo-card own">
+                <div class="photo-placeholder pink-bg">
+                    🧑🏻‍🎤
+                </div>
+                <h3>Por #02</h3>
+                <span class="status own-status">OWN</span>
+            </article>
+
+
+            <article class="photo-card want">
+                <div class="photo-placeholder mint-bg">
+                    ✦
+                </div>
+                <h3>Teeteepor #03</h3>
+                <span class="status want-status">WANT</span>
+            </article>
+
+
+            <article class="photo-card uft">
+                <div class="photo-placeholder yellow-bg">
+                    🧑🏻‍🎤
+                </div>
+                <h3>Jamessu #04</h3>
+                <span class="status uft-status">UFT</span>
+            </article>
+
+
+            <article class="photo-card own">
+                <div class="photo-placeholder blue-bg">
+                    🧑🏻‍🎤
+                </div>
+                <h3>Tutor #05</h3>
+                <span class="status own-status">OWN</span>
+            </article>
+
+
+            <article class="photo-card want">
+                <div class="photo-placeholder pink-bg">
+                    ✦
+                </div>
+                <h3>Yim #06</h3>
+                <span class="status want-status">WANT</span>
+            </article>
+
+
+            <article class="photo-card own">
+                <div class="photo-placeholder purple-bg">
+                    🧑🏻‍🎤
+                </div>
+                <h3>Auau #07</h3>
+                <span class="status own-status">OWN</span>
+            </article>
+
+
+            <article class="photo-card own">
+                <div class="photo-placeholder mint-bg">
+                    🧑🏻‍🎤
+                </div>
+                <h3>Dexx #08</h3>
+                <span class="status own-status">OWN</span>
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- TRADE MATCHER -->
+    <section class="trade-section">
+
+        <div class="section-heading">
+            <div>
+                <span class="eyebrow">BONUS FEATURE</span>
+                <h2>Trade Matcher</h2>
+            </div>
+        </div>
+
+        <div class="trade-grid">
+
+            <div class="trade-box">
+                <h3>📦 Cards I Have</h3>
+
+                <input
+                    type="text"
+                    placeholder="e.g. Jungkook Butter #03"
+                >
+
+                <button class="btn primary-btn">
+                    Add Card
+                </button>
+            </div>
+
+
+            <div class="trade-box">
+                <h3>💗 Cards I Want</h3>
+
+                <input
+                    type="text"
+                    placeholder="e.g. V Butter #07"
+                >
+
+                <button class="btn primary-btn">
+                    Add Wanted Card
+                </button>
+            </div>
+
+        </div>
+
+        <div class="match-result">
+            ✨ <strong>3 potential trade matches</strong>
+            found for your collection.
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+    <p>♡ IdolVault — Keep collecting your dreams.</p>
+</footer>
+
+</body>
+</html>
